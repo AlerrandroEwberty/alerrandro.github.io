@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .capa {
+    background-color: blue;
+    height: 150px;
+    width: 100%;
+  }
+
+  .cartao {
+    width: 350px;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -75px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+   .botoes {
+     text-align: center;
+     margin: 10px 0;
+   }
+   
+   .info p {
+     text-align: left;
+     font-size: 14px;
+     font-weight: normal;
+     margin: 5px 15px;
+   }
+
+   .fotos {
+     display: flex;
+     gap: 10px;
+     padding: 10px;
+   }
+
+   .fotos img {
+     width: 150px;
+     height: 150px;
+     margin-top: 0;
+   }
+   </style>
+  </head>
+  <body>
+    <div class="cartao">
+    <div class="capa"></div>
+    <img src="ff.jpg" alt="foto de perfil">
+    <p>Alerrandro Ewberty</p>
+  <div class="botoes">
+    <button>seguidores
+              134</button>
+    <button>seguindo 38</button>
+    <button>Menssagens⁺⁹⁹ </button>
+    <button>mais</button>
+    <button>corinthis/vila nova</button>
+  </div>
+  
+  <div class="info">
+    <p>Nacismento 22/02/2013</p>
+    <p>Moro em indiara GO</p>
+    <p>goleiro futsal/fut7</p>
+  </div>
+
+    <div class="fotos">
+    <img src="f1.jpg" alt="foto1">
+    <img src="f2.jpg" alt="foto2">
+  </div>
+  </div>
+  </body>
+</html>
